@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T03:24:45.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="0z5D6a_llgqlEOt9e9Wu" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-23T03:26:12.728Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="QEGeaQgMMdsYFUngyL7y" version="22.0.6" type="github">
   <diagram name="Page-1" id="XSWjx-wqbzNgb8K1HLHU">
     <mxGraphModel dx="607" dy="324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PtsquzQprHJ_Ytb81c4v-1" value="Algoritma Memindahkan Air&lt;br&gt;1. Mulai&lt;br&gt;2. Siapkan Gelas A yang berisi teh, dan Gelas B yang berisi kopi&lt;br&gt;3. Siapkan Gelas C kosong&lt;br&gt;4. Tuangkan Gelas A yang berisi teh ke gelas C untuk mengosongkan Gelas A&lt;br&gt;5. Tuangkan Gelas B yang berisi kopi ke Gelas A untuk memindahkan Kopi ke Gelas A&lt;br&gt;6. Tuangkan Gelas C untuk memindahkan teh ke Gelas B.&lt;br&gt;7. Isi dari masing-masing gelas sudah berpindah, Gelas A isinya menjadi Kopi, dan Gelas B isi nya menjadi teh.&lt;br&gt;8. Selesai" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="PtsquzQprHJ_Ytb81c4v-1" value="Algoritma Memindahkan Air&lt;br&gt;1. Mulai&lt;br&gt;2. Siapkan Gelas A yang berisi teh, dan Gelas B yang berisi kopi&lt;br&gt;3. Siapkan Gelas C kosong sebagai gelas tambahan&lt;br&gt;4. Tuangkan Gelas A yang berisi teh ke gelas C untuk mengosongkan Gelas A&lt;br&gt;5. Tuangkan Gelas B yang berisi kopi ke Gelas A untuk memindahkan Kopi ke Gelas A&lt;br&gt;6. Tuangkan Gelas C untuk memindahkan Teh ke Gelas B.&lt;br&gt;7. Isi dari masing-masing gelas sudah berpindah, Gelas A isinya menjadi Kopi, dan Gelas B isi nya menjadi teh.&lt;br&gt;8. Selesai" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="60" y="80" width="620" height="140" as="geometry" />
         </mxCell>
       </root>
