@@ -1,6 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T06:47:55.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.6" etag="MOteYvGLy1qMEy3dhSev" type="github">
-  <diagram name="Page-1" id="3HI-eR-b4zqOnc6hEsLk">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-10-23T06:52:22.390Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="DPH4i7U3gHR8w2MKPosf" version="22.0.6" type="github" pages="2">
+  <diagram name="Nilai Terbesar" id="3HI-eR-b4zqOnc6hEsLk">
+    <mxGraphModel dx="1583" dy="365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kJ0eJdsixtMQMBE_Rjwo-1" value="Algoritma Mencari Nilai Terbesar&lt;br&gt;1. Mulai&lt;br&gt;2. Tentukan variabel x dan y&lt;br&gt;3. Masukan nilai yang akan dibandingkan&lt;br&gt;4. Bandingkan dua nilai dengan x &amp;gt; y (x lebih besar dari y)&lt;br&gt;5. Jika nilai pada variable x lebih besar dari y (ya), makan nilai x lebih besar.&lt;br&gt;6. Jika nilai pada variable x &#39;tiidak&#39; lebih besar dari y (tidak), mka nilai y lebih besar&lt;br&gt;7. Tampilkan nilai terbesar&lt;br&gt;8. Selesai" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="40" width="460" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="eLwEktWA-whOgs-0-oCd" name="Ganjil Genap">
+    <mxGraphModel dx="880" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
