@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T06:52:08.825Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="a01g0ikxstWuiUDwDzhS" version="22.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-24T06:54:01.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="VeqvVG0iVGblh5hFbAGd" version="22.0.6" type="github" pages="2">
   <diagram name="Nilai Terbesar" id="3HI-eR-b4zqOnc6hEsLk">
     <mxGraphModel dx="1730" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,12 +11,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eLwEktWA-whOgs-0-oCd" name="Ganjil Genap">
-    <mxGraphModel dx="880" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="880" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="enInhKttI4WgjkYJBGPb-1" value="Algortima Mengecek Apakah Bilangan merupakan Bilangan Ganjil atau Genap&lt;br&gt;1. Mulai&lt;br&gt;2. Tentukan tipe data dari nilai yang akan di cek yaitu tipe data num&lt;br&gt;3. Masukan nilai yang akan dicek&lt;br&gt;4. Modulo bilangan dengan 2&lt;br&gt;5. Jika sisa bagi nilai yang dimodulo dengan 2 = 0, maka nilai merupakan bilangan genap&lt;br&gt;6. Jika sisa bagi nilai yang dimodulo dengan 2 = 1, maka nilai merupakan bilangan ganjil&lt;br&gt;7. Cetak &#39; Nilai merupakan bilangan + &#39; ganjil atau genap&lt;br&gt;8. Selesai" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" y="40" width="500" height="140" as="geometry" />
+        <mxCell id="enInhKttI4WgjkYJBGPb-1" value="Algortima Mengecek Apakah Bilangan merupakan Bilangan Ganjil atau Genap&lt;br&gt;1. Mulai&lt;br&gt;2. Tentukan tipe data dari nilai yang akan di cek yaitu tipe data num&lt;br&gt;3. Masukan nilai yang akan dicek&lt;br&gt;4. Modulo bilangan dengan 2&lt;br&gt;5. Jika sisa bagi nilai yang dimodulo dengan 2 = 0, maka&lt;br&gt;6. Cetak &quot;Genap&quot;&lt;br&gt;7. Jika tidak, maka&lt;br&gt;8. Cetak &#39;Ganjil&quot;&lt;br&gt;9. Selesai" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="120" y="30" width="440" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
