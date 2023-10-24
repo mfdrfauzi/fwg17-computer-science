@@ -1,93 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T09:25:30.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="g9TGu1SF7FDAebN_sq3_" version="22.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-24T07:29:40.598Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="U5mTekaifude6uX6QJOP" version="22.0.6" type="github" pages="2">
   <diagram name="Kata Palindrom" id="xqpit8tieolZGP3yh0wS">
-    <mxGraphModel dx="1730" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1876" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0j6sQtGZUSPRx_zmh45T-1" value="PSEUDOCODE&lt;br&gt;&lt;div&gt;Algoritma Kata_Palindrom&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;DECLARATION&lt;/div&gt;&lt;div&gt;kata, i, reverse&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;BEGIN&lt;/div&gt;&lt;div&gt;INPUT kata&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;reverse = &quot;&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;FOR&lt;/span&gt;&lt;/span&gt;&amp;nbsp;i from length(kata) down to 0 step -1 do&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;reverse += kata[i]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;return reverse&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;END FOR&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;IF kata == reverse then&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;OUTPUT kata, &quot; adalah kata Palindrom&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;else&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;OUTPUT kata, &quot; bukan kata Palindrom&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;END IF&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;END&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="320" y="40" width="270" height="320" as="geometry" />
+        <mxCell id="0j6sQtGZUSPRx_zmh45T-1" value="PSEUDOCODE&lt;br&gt;&lt;div&gt;Algoritma Kata_Palindrom&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;DECLARATION&lt;/div&gt;&lt;div&gt;kata, i, reversed&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;BEGIN&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;INPUT kata&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;i = lengthe.kata - 1&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;FOR i &amp;gt;= 0 THEN&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;reversed += kata[i]&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;i = i - 1&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="320" y="40" width="180" height="190" as="geometry" />
         </mxCell>
         <mxCell id="0j6sQtGZUSPRx_zmh45T-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0j6sQtGZUSPRx_zmh45T-2" target="0j6sQtGZUSPRx_zmh45T-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0j6sQtGZUSPRx_zmh45T-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="0j6sQtGZUSPRx_zmh45T-2" value="START" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="40" width="95" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0j6sQtGZUSPRx_zmh45T-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0j6sQtGZUSPRx_zmh45T-3" target="0j6sQtGZUSPRx_zmh45T-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0j6sQtGZUSPRx_zmh45T-3" value="Input kata" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="0j6sQtGZUSPRx_zmh45T-3" value="INPUT kata" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="86.25" y="120" width="102.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0j6sQtGZUSPRx_zmh45T-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0j6sQtGZUSPRx_zmh45T-4" target="0j6sQtGZUSPRx_zmh45T-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0j6sQtGZUSPRx_zmh45T-4" value="reverse, i" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+        <mxCell id="0j6sQtGZUSPRx_zmh45T-4" value="i, reversed" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="85.63" y="190" width="105" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0j6sQtGZUSPRx_zmh45T-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0j6sQtGZUSPRx_zmh45T-5" target="0j6sQtGZUSPRx_zmh45T-15" edge="1">
+        <mxCell id="Wfg1hlL-yYo0V63kEh8X-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0j6sQtGZUSPRx_zmh45T-5" target="0j6sQtGZUSPRx_zmh45T-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0j6sQtGZUSPRx_zmh45T-5" value="lenght(kata)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="0j6sQtGZUSPRx_zmh45T-5" value="i = length.kata - 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="85.63" y="260" width="105" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0j6sQtGZUSPRx_zmh45T-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0j6sQtGZUSPRx_zmh45T-6" target="0j6sQtGZUSPRx_zmh45T-16" edge="1">
+        <mxCell id="Wfg1hlL-yYo0V63kEh8X-3" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0j6sQtGZUSPRx_zmh45T-6" target="0j6sQtGZUSPRx_zmh45T-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0j6sQtGZUSPRx_zmh45T-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0j6sQtGZUSPRx_zmh45T-6" target="0j6sQtGZUSPRx_zmh45T-15" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="240" y="500" />
-              <mxPoint x="240" y="350" />
-            </Array>
+        <mxCell id="Wfg1hlL-yYo0V63kEh8X-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0j6sQtGZUSPRx_zmh45T-6" target="0j6sQtGZUSPRx_zmh45T-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wfg1hlL-yYo0V63kEh8X-9" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wfg1hlL-yYo0V63kEh8X-8">
+          <mxGeometry x="-0.5835" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0j6sQtGZUSPRx_zmh45T-6" value="i in&lt;br&gt;lenght(kata)&lt;br&gt;= 0" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="82.5" y="460" width="111.25" height="80" as="geometry" />
+        <mxCell id="0j6sQtGZUSPRx_zmh45T-6" value="i &amp;gt;= 0" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="82.72" y="330" width="111.25" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0j6sQtGZUSPRx_zmh45T-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0j6sQtGZUSPRx_zmh45T-7" target="0j6sQtGZUSPRx_zmh45T-6" edge="1">
+        <mxCell id="Wfg1hlL-yYo0V63kEh8X-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0j6sQtGZUSPRx_zmh45T-7" target="Wfg1hlL-yYo0V63kEh8X-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0j6sQtGZUSPRx_zmh45T-7" value="reverse += kata[i]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="85.63" y="400" width="105" height="40" as="geometry" />
+        <mxCell id="0j6sQtGZUSPRx_zmh45T-7" value="reversed += kata[i]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="85.63" y="470.01" width="105" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0j6sQtGZUSPRx_zmh45T-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0j6sQtGZUSPRx_zmh45T-12" target="0j6sQtGZUSPRx_zmh45T-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0j6sQtGZUSPRx_zmh45T-12" value="OUTPUT&lt;br&gt;kata, &quot; adalah kata palindrom&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="-25.85" y="660" width="136.7" height="50" as="geometry" />
+          <mxGeometry x="180" y="580.01" width="136.7" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0j6sQtGZUSPRx_zmh45T-13" value="END" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="90.85" y="750" width="95" height="50" as="geometry" />
+          <mxGeometry x="296.7" y="670.01" width="95" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0j6sQtGZUSPRx_zmh45T-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0j6sQtGZUSPRx_zmh45T-15" target="0j6sQtGZUSPRx_zmh45T-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0j6sQtGZUSPRx_zmh45T-15" value="i in lenght(kata) - 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="85.61999999999999" y="330" width="105" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="0j6sQtGZUSPRx_zmh45T-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0j6sQtGZUSPRx_zmh45T-16" target="0j6sQtGZUSPRx_zmh45T-12" edge="1">
+        <mxCell id="0j6sQtGZUSPRx_zmh45T-22" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0j6sQtGZUSPRx_zmh45T-16" target="0j6sQtGZUSPRx_zmh45T-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="42.85" y="610" />
+              <mxPoint x="343" y="540.01" />
+              <mxPoint x="248" y="540.01" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0j6sQtGZUSPRx_zmh45T-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0j6sQtGZUSPRx_zmh45T-16" target="0j6sQtGZUSPRx_zmh45T-19" edge="1">
+        <mxCell id="0j6sQtGZUSPRx_zmh45T-23" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0j6sQtGZUSPRx_zmh45T-16" target="0j6sQtGZUSPRx_zmh45T-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="235.85" y="610" />
+              <mxPoint x="343" y="540.01" />
+              <mxPoint x="441" y="540.01" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0j6sQtGZUSPRx_zmh45T-16" value="reverse == kata" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="82.71999999999998" y="570" width="111.25" height="80" as="geometry" />
+        <mxCell id="0j6sQtGZUSPRx_zmh45T-16" value="reversed === kata" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="287.71999999999997" y="450.01" width="111.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0j6sQtGZUSPRx_zmh45T-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0j6sQtGZUSPRx_zmh45T-19" target="0j6sQtGZUSPRx_zmh45T-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0j6sQtGZUSPRx_zmh45T-19" value="OUTPUT&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;kata, &quot; bukan kata palindrom&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="170.09" y="660" width="130.76" height="50" as="geometry" />
+          <mxGeometry x="375.94" y="580.01" width="130.76" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Wfg1hlL-yYo0V63kEh8X-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wfg1hlL-yYo0V63kEh8X-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wfg1hlL-yYo0V63kEh8X-5" value="i = i -1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="350" width="105" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
